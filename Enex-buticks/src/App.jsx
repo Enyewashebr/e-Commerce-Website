@@ -13,7 +13,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='px-4 sm:px-[5vw] lg:px-[9vw]'>
+    <div className='px-4 sm:px-[2vw] lg:px-[3.5vw]'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
