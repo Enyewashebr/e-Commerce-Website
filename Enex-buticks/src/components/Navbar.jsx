@@ -10,37 +10,24 @@ const [visible, setvisible] = useState(false)
 
   return (
     <div className="flex items-center justify-between py-5 font-medium ">
-      <img src={assets.logo3} className="w-20" alt="logo" />
+      <NavLink to="/" className="logo">
+        <img src={assets.logo3} className=" w-20 cursor-pointer " alt="logo" />
+      </NavLink>
+
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700 ">
-        <NavLink
-         
-          to="/"
-          className="flex flex-col items-center gap-1"
-        >
+        <NavLink to="/" className="flex flex-col items-center gap-1">
           <p>HOME</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
         </NavLink>
-        <NavLink
-          
-          to="/collection"
-          className="flex flex-col items-center gap-1"
-        >
+        <NavLink to="/collection" className="flex flex-col items-center gap-1">
           <p>COLLECTION</p>
           <hr className="w-2/4  border-none h-[1.5px] bg-gray-700 hidden  " />
         </NavLink>
-        <NavLink
-          
-          to="/about"
-          className="flex flex-col items-center gap-1"
-        >
+        <NavLink to="/about" className="flex flex-col items-center gap-1">
           <p>ABOUT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
         </NavLink>
-        <NavLink
-          to="/contact"
-          
-          className="flex flex-col items-center gap-1"
-        >
+        <NavLink to="/contact" className="flex flex-col items-center gap-1">
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
         </NavLink>
@@ -61,13 +48,13 @@ const [visible, setvisible] = useState(false)
             </div>
           </div>
         </div>
-        <Link  to="/cart" className="relative">
+        <Link to="/cart" className="relative">
           <img
             src={assets.cart_icon2}
             alt=""
             className="rounded-full cursor-pointer w-10 min-w-10"
           />
-          <p className="absolute right-[-5px] w-4 text-center leading-4 bg-red-500 text-white aspect-square rounded-full text-[8px] top-[-5px]">
+          <p className="absolute right-[-5px] w-4 text-center leading-4 bg-red-500 text-white aspect-square rounded-full text-[10px] top-[-5px]">
             10
           </p>
         </Link>
