@@ -8,9 +8,10 @@
 a.active hr{
     display: block;
 }
-/* body{
- overflow: hidden;
-} */
+body{
+ overflow-x: hidden;
+ 
+}
 
 *{
     font-family: Outfit;
@@ -27,3 +28,5 @@ a.active hr{
         color: white;
     }
 }
+
+
