@@ -23,7 +23,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p className="text-xl font-medium mb-5 text-[#15a3a8]">
+          <p className="text-xl font-medium mb-5 text-[#10bfc5]">
             GET IN TOUCH
           </p>
           <ul className="flex flex-col gap-1 text-[#10bfc5] cursor-pointer text-sm">
