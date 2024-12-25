@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-[rgb(195,195,210)]">
+      <div >
         <hr className='border-[#15a3a8]'/>
         <p className="py-5 text-sm text-center">
           Copyright 2024@enexboutique.com -All Right Reserved.

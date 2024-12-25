@@ -83,7 +83,7 @@ const [visible, setvisible] = useState(false)
           visible ? "w-full" : "w-0"
         }`}
       >
-        <div className="flex flex-col text-gray-600 ">
+        <div className="flex flex-col text-[#15a3a8] ">
           <div
             onClick={() => setvisible(false)}
             className="flex items-center gap-4 p-3 cursor-pointer"
@@ -100,7 +100,7 @@ const [visible, setvisible] = useState(false)
           </NavLink>
           <NavLink
             onClick={() => setvisible(false)}
-            className="py-2 pl-6 border"
+            className="py-2 pl-6 border "
             to="/collection"
           >
             COLLECTION
