@@ -5,8 +5,18 @@
 @tailwind components;
 @tailwind utilities;
 
-a.active hr{
+/* a.active hr{
     display: block;
+} */
+a.active:not(.logo){
+    background-color: #10bfc5;
+    color: white;
+    /* padding: 20px; */
+    border-radius: 5px;
+    border: none;
+}
+a.hover:not(.logo){
+    background-color: #93eff2;
 }
 body{
  overflow-x: hidden;

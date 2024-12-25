@@ -15,21 +15,33 @@ const [visible, setvisible] = useState(false)
       </NavLink>
 
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700 ">
-        <NavLink to="/" className="flex flex-col items-center gap-1">
+        <NavLink
+          to="/"
+          className="flex flex-col items-center gap-1 p-3 pb-6 hover:bg-[#93eff2]"
+        >
           <p>HOME</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
+          {/* <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " /> */}
         </NavLink>
-        <NavLink to="/collection" className="flex flex-col items-center gap-1">
+        <NavLink
+          to="/collection"
+          className="flex flex-col items-center gap-1 p-3 pb-6 hover:bg-[#93eff2]"
+        >
           <p>COLLECTION</p>
-          <hr className="w-2/4  border-none h-[1.5px] bg-gray-700 hidden  " />
+          {/* <hr className="w-2/4  border-none h-[1.5px] bg-gray-700 hidden  " /> */}
         </NavLink>
-        <NavLink to="/about" className="flex flex-col items-center gap-1">
+        <NavLink
+          to="/about"
+          className="flex flex-col items-center gap-1 p-3 pb-6 hover:bg-[#93eff2]"
+        >
           <p>ABOUT</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
+          {/* <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " /> */}
         </NavLink>
-        <NavLink to="/contact" className="flex flex-col items-center gap-1">
+        <NavLink
+          to="/contact"
+          className="flex flex-col items-center gap-1 p-3 pb-6 hover:bg-[#93eff2]"
+        >
           <p>CONTACT</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " />
+          {/* <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden " /> */}
         </NavLink>
       </ul>
       <div className="flex items-center gap-6">
