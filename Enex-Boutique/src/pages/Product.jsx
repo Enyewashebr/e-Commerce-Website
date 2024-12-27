@@ -4,6 +4,7 @@ import { ShopContext } from '../context/ShopContext'
 import { useContext, useEffect, useState } from 'react'
 import { assets } from '../assets/assets';
 import { products } from '../assets/assets';
+import RelatedProducts from '../components/RelatedProducts';
 
 const Product = () => {
 
@@ -106,7 +107,7 @@ useEffect(() => {
         </div>
       </div>
       {/* ......Display related products...... */}
-      
+      <RelatedProducts category={productData.category} subCategory={productData.subCategory} />
     </div>
   ) : (
     <div className="opacity-0 "></div>
