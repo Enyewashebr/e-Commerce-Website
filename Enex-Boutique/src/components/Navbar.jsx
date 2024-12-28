@@ -9,7 +9,7 @@ const Navbar = () => {
 
 const [visible, setvisible] = useState(false)
 
-const {setShowSearch} = useContext(ShopContext);
+const {setShowSearch, getCartCount} = useContext(ShopContext);
 
 
   return (
@@ -71,7 +71,7 @@ const {setShowSearch} = useContext(ShopContext);
             className="rounded-full cursor-pointer w-10 min-w-10"
           />
           <p className="absolute right-[-5px] w-4 text-center leading-4 bg-red-500 text-white aspect-square rounded-full text-[10px] top-[-5px]">
-            10
+            {getCartCount()}
           </p>
         </Link>
         <img
