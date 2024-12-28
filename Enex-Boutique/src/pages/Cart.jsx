@@ -60,6 +60,9 @@ useEffect (()=>{
       <div className="flex justify-end my-20">
           <div className="w-full sm:w-[450px]">
               <CartTotal />
+              <div className="w-full text-end">
+                <button className="bg-[#02a39e] text-white text-sm my-8 px-8  py-3 rounded-[20px]">PROCEED TO CHECKOUT</button>
+              </div>
           </div>
       </div>
     </div>
