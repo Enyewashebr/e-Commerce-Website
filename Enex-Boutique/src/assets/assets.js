@@ -76,8 +76,10 @@ import cross_icon from './cross_icon.png'
 import logo2 from './logo2.png'
 import logo3 from './logo3.png'
 import cart_icon2 from './cart_icon2.png'
+import telebir_logo from './telebir_logo.png'
 
 export const assets = {
+    telebir_logo,
     cart_icon2,
     logo3,
     logo2,
