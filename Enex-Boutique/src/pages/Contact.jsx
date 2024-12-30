@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { assets } from "../assets/assets"
-import NewsLetterBox from "../components/NewsletterBox";
+import NewsLetterBox from "../components/NewsLetterBox";
 import Title from "../components/Title"
 
 const Contact = () => {
