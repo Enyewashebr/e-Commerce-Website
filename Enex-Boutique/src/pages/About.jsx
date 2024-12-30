@@ -2,7 +2,7 @@
 
 import { assets } from "../assets/assets"
 import Title from "../components/Title"
-import NewsletterBox from "../components/NewsletterBox"
+import NewsLetterBox from "../components/NewsLetterBox"
 
 const About = () => {
   return (
@@ -59,7 +59,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <NewsletterBox />
+      <NewsLetterBox />
     </div>
   );
 }
