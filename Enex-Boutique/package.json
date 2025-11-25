@@ -1,8 +1,12 @@
 {
   "name": "enex-butix",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,15 +14,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "buffer": "^6.0.3",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
     "path-browserify": "^1.0.1",
     "prop-types": "^15.8.1",
+    "razorpay": "^2.9.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.0",
     "react-toastify": "^11.0.2",
     "stream-http": "^3.2.0",
-    "url": "^0.11.4"
+    "stripe": "^20.0.0",
+    "url": "^0.11.4",
+    "validator": "^13.15.23"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
